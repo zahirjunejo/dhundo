@@ -3,7 +3,7 @@ module.exports.locationList = function(req, res){
 };
 
 module.exports.locationInfo = function(req,res){
-    res.render('index', {title:'Location Information'});
+    res.render('location-info', {title:'Location Information'});
 };
 
 module.exports.addReview = function(req, res){
